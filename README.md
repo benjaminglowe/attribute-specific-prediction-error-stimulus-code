@@ -6,7 +6,7 @@ We have done our best to ensure that each file is sufficiently commented so that
 - `conditions_gen.py` generates trial sequences and outputs a series of `.xlsx` files read by the main paradigm script (i.e., `contextual_trajectory_paradigm.py`) during the experiment.
 - `luminance_control_functions.py` was meant to serve as a file that contained functions for maintaining equiluminance throughout the paradigm, though this requires gamma correction, which we failed to employ during the published study (see Materials and Methods). This can be tested using `testing_luminance.py`.
 - `port_funcs.py` contains functions for sending event triggers.
-- `contextual_trajectory_paradigm.py` contains the main paradigm code, which heavily relies on PsychoPy modules.
+- `contextual_trajectory_paradigm.py` contains the main paradigm code, which heavily relies on [PsychoPy](https://www.psychopy.org/) modules.
 
 Our recommended run order is:
 1. `stimulus_gen.py`
